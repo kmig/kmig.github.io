@@ -220,11 +220,7 @@ margin: 15px 15px 15px 15px;
     border-radius: 0;
     transition: .2s;
 }
-.btn:hover, .btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #000;
-}
+
 .modal-header, h4, .close {
     background-color: #333;
     color: #fff !important;
