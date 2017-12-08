@@ -93,6 +93,7 @@ color: #fff;
 }
 #contact .container{
   box-shadow: 5px 5px 0px #a6a6a6;
+  max-width: 50rem;
 }
 
 /*html {
