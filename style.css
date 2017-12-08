@@ -1,24 +1,22 @@
 
 body {
-
-  /*font-family: 'Montserrat', sans-serif;*/
-
-
-    color: #777;
-    background-color: #fff;
     padding: 48px 0 0 0;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 h1, h4 {
-    margin: 10px 0 10px 0;
+    margin: 40px 0 20px 0;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 36px;
+    text-transform: uppercase;
 }
 
 h2,
 .h2 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
+  margin: 20px 0 20px 0;
 }
 
 h3 {
@@ -36,10 +34,10 @@ p {
 }
 
 section {
-    padding-top: 10rem;
-    padding-right: 0px;
-    padding-bottom: 10rem;
-    padding-left: 0px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 .bg-primary {
   background-color: white;
@@ -56,13 +54,31 @@ section {
 }
 
 #whatwesell {
-background-color: #fff;
-color: #262626;
+background-color:  #262626;
+color: #fff;
+}
+
+#whatwesell .container{
+  background-color: inherit;
+  color: #fff;
+}
+#whatwesell .col-sm-3 {
+  background-color:  inherit;
+  color: #fff;
+}
+#whatwesell p {
+  color: #fff;
 
 }
+
+
 #examples {
   background-color: #fff;
   color: #262626;
+}
+#examples .col-sm-4 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #whoweare {
@@ -72,12 +88,13 @@ color: #262626;
 
 #contact {
   background-color: #262626;
-  color: #fff;
+  color: #262626;
+
+}
+#contact .container{
+  box-shadow: 5px 5px 0px #a6a6a6;
 }
 
-.logo-small {
-  font-size: 80px;
-}
 /*html {
   font-size: 14px;
 }
@@ -126,10 +143,11 @@ color: #262626;
 }*/
 
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
   color: #4a3a27;
   line-height: 1.2;
-  font-size: 3vw;
   color: #fff;
   vertical-align: 40%;
   margin-top: 10vw;
@@ -148,14 +166,13 @@ h6 {
 
 }
 
-
 .container {
     padding: 0px 0px;
-
+    background-color: #fff;
 }
-.jumbotron {
-  margin-bottom: 0px;
-  color: black;
+
+.row {
+margin: 15px 15px 15px 15px;
 
 }
 
@@ -176,6 +193,7 @@ h6 {
     background: #2d2d30;
     color: #bdbdbd;
 }
+
 .bg-1 h3 {color: #fff;}
 .bg-1 p {font-style: italic;}
 .list-group-item:first-child {
@@ -225,8 +243,9 @@ h6 {
     margin-bottom: 0;
     background-color: #fff;
     border: 0;
-    font-size: 18px !important;
+    font-size: 16px !important;
     opacity: 1;
+    box-shadow: 0px 1px 10px #888888;
 }
 .navbar li a, .navbar .navbar-brand {
     color: #484851 !important;
@@ -244,7 +263,7 @@ h6 {
 }
 
 footer {
-    background-color: #2d2d30;
+    background-color: #fff;
     color: #f5f5f5;
     padding: 22px;
 }
