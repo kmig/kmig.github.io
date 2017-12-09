@@ -1,15 +1,18 @@
 
 body {
-    padding: 48px 0 0 0;
+
     font-family: 'Ubuntu', sans-serif;
+}
+.bg-primary {
+    background-color: #fff;
 }
 
 h1, h4 {
-    margin: 40px 0 20px 0;
+
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 36px;
-    text-transform: uppercase;
+    text-transform: ;
 }
 
 h2,
@@ -31,70 +34,94 @@ p {
   font-size: 16px;
   color: #404040;
 
+
 }
 
 section {
-    padding-top: 1rem;
+    padding-top: 120px;
     padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 120px;
     padding-left: 1rem;
 }
-.bg-primary {
-  background-color: white;
+
+#myPage .my-container-color{
+  background-color: #fff;
+  color: #262626;
 }
- hr {
-   border-top-width: 1px;
-   border-top-style: solid;
-   border-top-color: black;
-   max-width: 3.5rem;
+#myPage{
+  background-color: #fff;
+  color: #262626;
+}
+
+#whatwedo .my-container-color{
+  background-color:   #FFEFBF;
+  color: #272727;
 }
 #whatwedo {
-  background-color: #fff;
-  color: #262626;
+  background-color:   #FFEFBF;
+  color: #272727;
+}
+#whatwedo p {
+  text-align: justify !important;
+  color: #272727;
 }
 
+#whatwesell .my-container-color{
+background-color:  #fff;
+color: #262626;
+}
 #whatwesell {
-background-color:  #262626;
-color: #fff;
+background-color:  #fff;
+color: #262626;
 }
 
-#whatwesell .container{
-  background-color: inherit;
-  color: #fff;
-}
-#whatwesell .col-sm-3 {
-  background-color:  inherit;
-  color: #fff;
-}
 #whatwesell p {
+
+  color: #262626;
+}
+
+#examples .my-container-color{
+  background-color:  #262626;
   color: #fff;
-
 }
-
-
 #examples {
-  background-color: #fff;
-  color: #262626;
+  background-color:  #262626;
+  color: #fff;
 }
-#examples .col-sm-4 {
-  padding-left: 0px;
-  padding-right: 0px;
+#examples p {
+
+  color: #fff;
 }
 
+
+#whoweare .my-container-color{
+background-color:  #fff;
+color: #262626;
+}
 #whoweare {
-  background-color: #fff;
+background-color:  #fff;
+color: #262626;
+}
+
+#whoweare p {
+
   color: #262626;
 }
 
+
+#contact .my-container-color{
+  background-color:  #262626;
+  color: #fff;
+}
 #contact {
-  background-color: #262626;
-  color: #262626;
+  background-color:  #262626;
+  color: #fff;
+}
+#contact p {
 
+  color: #fff;
 }
-#contact .container{
-  box-shadow: 5px 5px 0px #a6a6a6;
-  max-width: 50rem;
-}
+
 
 /*html {
   font-size: 14px;

@@ -59,19 +59,23 @@
 -->
 
   <!-- video -->
-  <section class="bg-primary" id="myPage">
-    <div class="container">
-      <div align="center" class="embed-responsive embed-responsive-16by9">
-        <video autoplay loop muted class="embed-responsive-item">
+  <section id="myPage">
+
+    <div class="container text-center my-container-color">
+      <div class="row">
+        <div class="embed-responsive embed-responsive-16by9 col-md-12">
+          <video autoplay loop muted class="embed-responsive-item">
                     <source src="films/web.mp4" type="video/mp4" >
-                  </video>
+        </video>
+        </div>
       </div>
-      <div class="row text-center">
-        <div class="col-sm-12">
-          <div class="overlay-desc">
-            <h6>thunderfilms london</br>
-          we are a startup like you
-     </h6>
+      <div class="container text-center my-container-color">
+        <div class="row">
+          <div class="col-sm-12">
+
+            <h1>thunderfilms london</br>
+            we are a startup like you
+       </h1>
           </div>
         </div>
       </div>
@@ -81,7 +85,7 @@
   <!-- what we do -->
   <section id="whatwedo">
 
-    <div class="container text-center">
+    <div class="container text-center my-container-color">
       <h1>what is this company about?</h1>
 
       <h2>become our first client</h2>
@@ -105,17 +109,17 @@
   <!-- what we sell -->
 
   <section id="whatwesell">
-    <div class="container text-center">
+    <div class="container text-center my-container-color">
       <div class="row">
 
-        <div class="container text-center">
+        <div class="container text-center my-container-color">
           <h1>what we have to offer</h1>
         </div>
 
       </div>
+      <div class="container text-center my-container-color">
+        <div class="row">
 
-      <div class="row">
-        <div class="container text-center">
 
           <div class="col-sm-3">
             <h2>documentary</h2>
@@ -145,10 +149,15 @@
 
   <!-- examples -->
   <section id="examples">
-    <div class="container-fluid">
+    <div class="container-fluid my-container-color">
       <div class="row">
+
         <div class="col-sm-12 col-xm-12">
           <h1 class="text-center">examples of our work</h1>
+        </div>
+      </div>
+      <div class="container-fluid my-container-color">
+        <div class="row">
 
           <div class="col-sm-4">
             <img class="img-responsive" src="images/f.jpg" style="width:100%;">
@@ -164,49 +173,64 @@
             <img class="img-responsive" src="images/f.jpg" style="width:100%;">
             <h2 class="text-center">kickstarter</h2>
           </div>
+
         </div>
       </div>
     </div>
+
   </section>
 
 
 
   <!-- who we are) -->
   <section id="whoweare">
-    <div class="container text-center">
-      <h1>who we are</h1>
 
+    <div class="container text-center my-container-color">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-12">
+          <h1>who we are</h1>
         </div>
-        <div class="col-sm-3">
-          <img class="img-responsive center-block person" src="images/portrait.jpg">
-          <h2 class="text-center">kacper</h2>
-          </br>
-          <p class="lead">camera, creative</p>
-        </div>
-        <div class="col-sm-3">
-          <img class="img-responsive center-block person" src="images/portrait.jpg">
-          <h2 class="text-center">adam</h2>
-          </br>
-          <p class="lead">project manager, creative</p>
-        </div>
-        <div class="col-sm-3">
-        </div>
-
       </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-3 text-center">
+        <img class="img-responsive center-block person" src="images/portrait.jpg">
+        <h2>kacper</h2>
+        </br>
+        <p class="lead">camera, creative</p>
+      </div>
+      <div class="col-sm-3 text-center">
+        <img class="img-responsive center-block person" src="images/portrait.jpg">
+        <h2>adam</h2>
+        </br>
+        <p class="lead">project manager, creative</p>
+      </div>
+      <div class="col-sm-3">
+      </div>
+
+
     </div>
   </section>
 
   <!-- container (Contact Section) -->
   <section id="contact">
-    <div class="container text-center">
-      <h1>Contact</h1>
-      <h2>we are here to listen</h2>
 
-      <div class="row text-center">
+    <div class="container text-center my-container-color">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Contact</h1>
+          <p>we are here to listen</p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center my-container-color">
+      <div class="row">
         <div class="col-md-2">
         </div>
+
         <div class="col-md-4">
           <p><span class="glyphicon glyphicon-phone"></span> Phone: 22</h2>
 
@@ -217,9 +241,11 @@
         </div>
         <div class="col-md-2">
         </div>
+
       </div>
-      <br>
+
     </div>
+
   </section>
 
   <!-- Footer -->
@@ -261,6 +287,7 @@
         } // End if
       });
     })
+    <!--
     $(document).ready(function() {
       // $fn.scrollSpeed(step, speed, easing);
       jQuery.scrollSpeed(100, 600);
@@ -362,7 +389,7 @@
         return -c * ((t = t / d - 1) * t * t * t - 1) + b;
       };
 
-    })(jQuery);
+    })(jQuery); -->
   </script>
 
 
