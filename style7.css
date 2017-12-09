@@ -54,16 +54,11 @@ video {
   align-items: center;
   justify-content: center;
 }
-.quote_bob p{
-    color: #fff;
-    background-color: transparent;
-}
-.blockquote-footer {
-  background-color: transparent;
-}
+
 hr {
   max-width: 70px;
 }
+
 /* id */
 
 #myPage{
@@ -81,8 +76,20 @@ hr {
   color: #272727;
 }
 #whatwedo p {
-  text-align: justify !important;
   color: #272727;
+}
+#whatwedo hr {
+  color: #272727;
+  border-color: #272727;
+}
+
+.quote_bob p{
+    background-color: transparent;
+    color: #272727;
+}
+.blockquote-footer {
+  background-color: transparent;
+      color: #272727;
 }
 #whatwesell {
 background-color:  #fff;
