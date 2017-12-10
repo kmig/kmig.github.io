@@ -1,0 +1,239 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #383C3D;
+}
+
+
+.bg-primary {
+    background-color: #fff;
+}
+
+h1, h4 {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: ;
+}
+
+h2,
+.h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  margin: 20px 0 20px 0;
+}
+#vid_top, #footer h2 p{
+  color: #fff !important;
+}
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+section#vid_top{
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+section{
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.overlay-desc {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-container {
+  position: relative;
+
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 0.8;
+}
+
+hr {
+  max-width: 70px;
+}
+
+/* id */
+/* media */
+@media (max-width: 768px) {
+  body {
+    padding: 40px 0 0 0;
+  }
+ section {
+   bbackground-color: pink;
+   padding: 10px 0px 10px 0px;
+ }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    padding: 40px 0 0 0;
+  }
+ section {
+   bbackground-color: red;
+   padding: 30px 0px 30px 0px;
+ }
+ .collapse {
+     display: none !important;
+ }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    padding: 0px 0 0 0;
+  }
+  section {
+    bbackground-color: green;
+    padding: 3rem 0px 3rem 0px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    padding: 0 0 0 0;
+  }
+  section {
+    bbackground-color: yellow;
+    padding: 5rem 0px 5rem 0px;
+  }
+}
+
+
+.video-container img{
+  max-width: 30%;
+}
+
+.quote_bob p{
+    background-color: transparent;
+    color: #272727;
+}
+.blockquote-footer {
+  background-color: transparent;
+      color: #272727;
+}
+.row {
+margin: 15px 15px 15px 15px;
+}
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 70%;
+    height: 70%;
+    opacity: 1;
+
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+
+}
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+/* navbar */
+.nav-tabs li a {
+    color: #777;
+}
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0;
+    background: transparent;
+    border: 0;
+    font-size: 16px !important;
+    opacity: 1;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: #262626; /* IE */
+    background: #262626; /* NON-IE */
+}
+.navbar li a, .navbar .navbar-brand {
+    color: white !important;
+    padding: 15px 35px;
+}
+.navbar-nav li a:hover {
+    color: #dedede !important;
+}
+.navbar-nav li.active a {
+    background-color: #262626 !important;
+    transition: all 0.3s ease;
+}
+.navbar-default .navbar-toggle {
+background: inherit;
+}
+@media (max-width: 1000px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+/* footer */
+footer {
+    background-color: #262626;
+    color: white;
+    padding: 22px;
+}
+footer a {
+    color: #fff;
+}
+footer a:link, a:visited {
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a:hover, a:active {
+    color: white;
+}
