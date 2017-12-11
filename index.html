@@ -7,14 +7,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style9.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+  <!-- my css -->
+  <link rel="stylesheet" href="style-v1.1.css" type="text/css">
+  <!-- my fonts -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500" rel="stylesheet">
+  <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <!-- old backup
 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="style-v1.1.css" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  -->
 
 </head>
 
@@ -35,7 +47,6 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#whatwedo">what we do</a></li>
           <li><a href="#whatwesell">what we sell</a></li>
-          <li><a href="#examples">examples</a></li>
           <li><a href="#whoweare">who we are</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
@@ -43,23 +54,33 @@
     </div>
   </nav>
   <!-- video -->
-  <section id="vid_top">
-    <div class="embed-responsive embed-responsive-16by9 video-container">
-      <video autoplay loop muted class="embed-responsive-item">
+  <section id="vid_top" class="autoheight hide_mobile">
+    <div class="video-container">
+      <video autoplay loop muted>
                   <source src="films/web.mp4" type="video/mp4" >
       </video>
       <div class="container text-center overlay-desc">
         <div class="row">
           <div class="col-sm-12">
             <img src="images/th_lg_t.png" alt="video is loading! patience pls" id="logo_vid">
-
             <h2>we are a startup like you</h2>
             <hr></hr>
-
-
           </div>
         </div>
       </div>
+  </section>
+  <!-- mobile top -->
+
+  <section>
+    <div class="container text-center show_mobile hide_desktop">
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="images/th_lg_t.png" alt="video is loading! patience pls" id="logo_vid">
+          <h2>we are a startup like you</h2>
+          <hr></hr>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- what we do -->
@@ -88,31 +109,217 @@
   <section id="whatwesell">
     <div class="container text-center">
       <div class="row">
-
         <h1>what we have to offer</h1>
+        <p>pick for better udnerstanding what kind of film you want</p>
         <hr></hr>
+        <button type="button" name="button">checl full gallery of our work</button>
       </div>
+      <!--top-->
+      <div class="row">
+        <div class="col-sm-4 business_desc">
+          <div class="business_border_top">
+            <h2>online business</h2>
+            <hr></hr>
+            <p>for rising entrepreneur looking to market their service online</p>
+          </div>
+          <div class="business_border_bottom"> <img autoplay loop class="img-responsive center-block img-square" src="images/p_m.gif">
+          </div>
+        </div>
+        <div class="col-sm-4 business_desc">
+          <div class="business_border_top">
+            <h2>online business</h2>
+            <hr></hr>
+            <p>for rising entrepreneur looking to market their service online</p>
+          </div>
+          <div class="business_border_bottom"> <img autoplay loop class="img-responsive center-block img-square" src="images/p_m.gif">
+          </div>
+        </div>
+        <div class="col-sm-4 business_desc">
+          <div class="business_border_top">
+            <h2>online business</h2>
+            <hr></hr>
+            <p>for rising entrepreneur looking to market their service online</p>
+          </div>
+          <div class="business_border_bottom"> <img autoplay loop class="img-responsive center-block img-square" src="images/p_m.gif">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <h2>srtup</h2>
+        <hr></hr>
+        <p>for anybody kickstarting their business</p>
+      </div>
+      <div class="col-sm-3">
+        <h2>weird docymentary</h2>
+        <hr></hr>
+        <p>for artists and creative ppl wanting to tell a stroy </p>
+      </div>
+      <div class="col-sm-3">
+        <h2>editing</h2>
+        <hr></hr>
+        <p>already have a great material? send it over for editing blabla</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <h2>online business</h2>
+        <hr></hr>
+        <p>for rising entrepreneur looking to market their service online</p>
+      </div>
+      <div class="col-sm-3">
+        <h2>srtup</h2>
+        <hr></hr>
+        <p>for anybody kickstarting their business</p>
+      </div>
+      <div class="col-sm-3">
+        <h2>weird docymentary</h2>
+        <hr></hr>
+        <p>for artists and creative ppl wanting to tell a stroy </p>
+      </div>
+      <div class="col-sm-3">
+        <h2>editing</h2>
+        <hr></hr>
+        <p>already have a great material? send it over for editing blabla</p>
+      </div>
+    </div>
+    <div class="row">
+      <hr></hr>
+    </div>
+    <!--tables-->
+    <div class="row">
+      <div class="col-sm-3">
+
+        <ul class="list-group">
+          <li class="list-group-item">marketing video</li>
+          <li class="list-group-item">strategy</li>
+          <li class="list-group-item">scripts</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">check out example video here:
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+
+        <ul class="list-group">
+          <li class="list-group-item">kickstarter video</li>
+          <li class="list-group-item">photos</li>
+          <li class="list-group-item">campaing page</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">check out example video here:
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+
+        <ul class="list-group">
+          <li class="list-group-item">we will trun your story into script</li>
+          <li class="list-group-item">production</li>
+          <li class="list-group-item">blablabla</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">check out example video here:
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+
+        <ul class="list-group">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">check out example video here:
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--tables and top backup
       <div class="row">
         <div class="col-sm-3">
-          <h2>documentary</h2>
-          <p>documentary filmfdhdfhdfhdfhdfhdfhd fhdfhdfhdhdfhs blabla</p>
+          <h2>online business</h2>
+          <p>for rising entrepreneur looking to market their service online</p>
+          <ul class="list-group">
+            <li class="list-group-item">marketing video</li>
+            <li class="list-group-item">strategy</li>
+            <li class="list-group-item">scripts</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">check out example video here:
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </li>
+          </ul>
         </div>
         <div class="col-sm-3">
-          <h2>studio interview</h2>
-          <p>sit and talk in studio about yourself and your business</p>
+          <h2>srtup</h2>
+          <p>for anybody kickstarting their business</p>
+          <ul class="list-group">
+            <li class="list-group-item">kickstarter video</li>
+            <li class="list-group-item">photos</li>
+            <li class="list-group-item">campaing page</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">check out example video here:
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </li>
+          </ul>
         </div>
         <div class="col-sm-3">
-          <h2>kickstarter</h2>
-          <p>video introducing you and your product to the world</p>
+          <h2>weird docymentary</h2>
+          <p>for artists and creative ppl wanting to tell a stroy </p>
+          <ul class="list-group">
+            <li class="list-group-item">we will trun your story into script</li>
+            <li class="list-group-item">production</li>
+            <li class="list-group-item">blablabla</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">check out example video here:
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </li>
+          </ul>
         </div>
         <div class="col-sm-3">
           <h2>editing</h2>
           <p>already have a great material? send it over for editing blabla</p>
+          <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">check out example video here:
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
+
+
+
+
+
+
+    -->
+
     </div>
   </section>
   <!-- examples -->
+
+  <!-- disabled for now
   <section id="examples">
     <div class="container text-center">
       <div class="row">
@@ -122,53 +329,77 @@
       </div>
       <div class="row">
         <div class="col-sm-4">
-          <img class="img-responsive" src="images/f.jpg" style="width:100%;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
           <h2 class="text-center">documentary</h2>
         </div>
         <div class="col-sm-4">
-          <img class="img-responsive" src="images/f.jpg" style="width:100%;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
           <h2 class="text-center">studio</h2>
         </div>
         <div class="col-sm-4">
-          <img class="img-responsive" src="images/f.jpg" style="width:100%;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l1dgBN-RVGI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
           <h2 class="text-center">kickstarter</h2>
         </div>
       </div>
     </div>
 
   </section>
-
-
-
+-->
   <!-- who we are) -->
   <section id="whoweare">
 
     <div class="container text-center">
+      <h1>who we are</h1>
+      <hr></hr>
       <div class="row">
-        <div class="col-sm-12">
-          <h1>who we are</h1>
-          <hr></hr>
+        <div class="col-sm-2">
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 text-left">
+          <img autoplay loop class="img-responsive center-block person img-square" src="images/p_m.gif">
+        </div>
+        <div class="col-sm-2">
         </div>
         <div class="col-sm-3 text-center">
-          <img class="img-responsive center-block person" src="images/portrait.jpg">
-          <h2>kacper</h2>
-          </br>
-          <p class="lead">camera, creative</p>
-        </div>
-        <div class="col-sm-3 text-center">
-          <img class="img-responsive center-block person" src="images/portrait.jpg">
-          <h2>adam</h2>
-          </br>
-          <p class="lead">project manager, creative</p>
-        </div>
-        <div class="col-sm-3">
+          <img autoplay loop class="img-responsive center-block person img-square" src="images/p_m.gif">
+          <div class="col-sm-2">
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="container text-center">
+
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-3 text-left">
+          <div class="per_border">
+            <h2>kacper</h2>
+            <p class="lead">camera, creative</p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+
+        <div class="col-sm-3 text-left">
+          <div class="per_border">
+            <h2>adam</h2>
+            <p class="lead">project manager, creative</p>
+          </div>
+          <div class="col-sm-2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   </section>
 
   <!-- contact -->
@@ -237,9 +468,20 @@
         checkScroll();
       });
     }
+
+    <!--test-->
+    var limiter = 100;
+    if ($(window).width() > limiter) {
+      var setElementHeight = function() {
+        var height = $(window).height();
+        $('.autoheight').css('min-height', (height));
+      };
+
+      $(window).on("resize", function() {
+        setElementHeight();
+      }).resize();
+    }
   </script>
-
-
 </body>
 
 </html>
