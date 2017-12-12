@@ -36,25 +36,50 @@ h2,
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow:hidden;
 }
 
 #whoweare h2 p {
   font-weight: 300;
   margin: -9px 0 1px 0 !important;
 }
-
 #vid_top, #footer h2 p{
   color: #fff !important;
 }
-#whyvideo .container-fluid {
-    padding-right: 15px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-
+/* why video*/
+#whyvideo .main_text, #test .main_text {
+  background-color: #f9f9f9;
+}
+#whyvideo p {
+  color: #696969;
 }
 #whyvideo .row {
     padding: 0px;
+}
+#whyvideo hr, #test hr {
+  max-width: 70px;
+  border-top: 1px solid #393c3d;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+/*who we are */
+#whoweare .main_text, #test .main_text {
+  background-color: #f9f9f9;
+}
+#whoweare p{
+  color: #696969;
+}
+#whoweare .row {
+    padding: 0px;
+}
+#whoweare hr {
+  max-width: 70px;
+  border-top: 1px solid #393c3d;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#whoweare img, #test img  {
+  height: auto;
 }
 
 h3 {
@@ -132,14 +157,21 @@ hr {
 .thumbnail {
     padding: 0 0 15px 0;
     border: 0px solid #ddd;
-        max-height: 50%;
-
+        max-height: auto;
+max-width: 50%;
 }
 .thumbnail p {
     margin-top: 15px;
     color: #555;
-
 }
+.break_pic {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.divider_border {
+  border-right: 1px solid #e5e5e5;
+}
+
 
 
 /* footer */
@@ -175,15 +207,20 @@ footer a:hover, a:active {
        }
 .show_mobile {
 display: block;
-  background-color: #6E7171;
+  background-color: #fafafa;
 }
 .show_mobile img{
          max-width: 30%;
        }
-
 .hide_mobile img{
          max-width: 30%;
        }
+       .align-middle {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 
@@ -206,6 +243,12 @@ display: block;
  .hide_desktop{
          display:none;
        }
+       .align-middle {
+           height: 40vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -216,6 +259,12 @@ display: block;
     bbackground-color: green;
     padding: 3rem 0px 3rem 0px;
   }
+  .align-middle {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -229,6 +278,12 @@ display: block;
   .video-container img{
     max-width: 47%;
   }
+  .align-middle {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 /* navbar */
 .nav-tabs li a {
