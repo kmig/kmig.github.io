@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>thunderfilms</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- my css -->
+  <link rel="stylesheet" href="capture.css" type="text/css">
+  <!-- my fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="myPage">
+
+  <!-- desktop -->
+  <div class="hide_mobile container-fluid video-container">
+    <div>
+      <div> <video autoplay loop muted>
+                              <source src="films/web_wide_s.mp4" type="video/mp4" >
+                  </video> </div>
+    </div>
+    <div class="main_text overlay-desc">
+      <div>
+        <h1 class="text-center">Say anything. Show anything.</h1>
+        <hr></hr>
+        <h3 class="text-center">tell a story of your brand</h3>
+        <div class="text-center"> <a class="btn btn-default" href="landing.html" role="button">click me - see more</a> </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile -->
+  <section id="mobile" class="hide_desktop show_mobile">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <div>
+            <div> <video autoplay loop muted>
+                              <source src="films/web_sq_s.mp4" type="video/mp4" >
+                  </video> </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12 main_text">
+          <div>
+            <h1 class="text-left">say anything. show anything.</h1>
+            <hr align="left">
+            <p class="text-justify">tell a story of your brand</p>
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+</body>
+
+</html>
