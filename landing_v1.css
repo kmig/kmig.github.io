@@ -16,10 +16,18 @@ h1{
     font-family: 'Roboto Slab', serif !important;
 }
 h4 {
-    font-weight: 100;
-    font-size: 26px;
-    text-transform: ;
-    font-family: 'Roboto Slab', serif !important;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif !important;
+    line-height: 1.3;
+    /*letter-spacing: 1px;*/
+    color: #d6d6d6;
+}
+p {
+  font-weight: 100;
+  font-size: 16px;
+  color: #a7a7a7;
+  font-family: 'Roboto Slab', serif !important;
 }
 h2,
 .h2 {
@@ -42,7 +50,7 @@ hr {
 
 }
 .btn {
-    margin-top: 2px;
+    margin-top: 15px;
     padding: 5px 30px;
     text-transform: uppercase;
     border: 2px solid transparent;
@@ -57,26 +65,20 @@ hr {
     border-radius: 3px;
     background: transparent;
 }
+.btn_contact {
+      background: #F46036;
+}
 .pull-right {
     float: right !important; // Use of important emulates bootstrap
 }
 .pull-left {
     float: left !important; // Use of important emulates bootstrap
 }
-p {
-  font-weight: 100;
-  font-size: 16px;
-  color: #a7a7a7;
-  font-family: 'Roboto Slab', serif !important;
-}
 
 section{
     padding: 0px 0px 0px 0px;
-    border-bottom: 1px solid #313131;
+    /*border-bottom: 1px solid #313131;*/
 }
-
-
-
 .video-container {
   position: relative;
   overflow-x: hidden;
@@ -100,13 +102,23 @@ section{
 video {
   width: 100%;
   height: auto;
-  background: rgba(0,0,0,0.5);
-  opacity: 0.8;
 }
 .main_text {
   background-color: #252525;
   color: #fff;
-
+}
+section#brand {
+      background-color: #1d1d1d;
+}
+section#you {
+    box-shadow: 1px -100px 0px #272727;
+}
+section#lifestyle {
+      background-color: #1d1d1d;
+      box-shadow: 1px -100px 0px #1d1d1d;
+}
+section#contact {
+    box-shadow: 1px -100px 0px #272727;
 }
 /*hero image*/
 .bgimage {
@@ -123,7 +135,7 @@ video {
 
 /* footer */
 footer {
-    background-color: #262626;
+    background-color: #1d1d1d;
     color: white;
     padding: 22px;
 }

@@ -36,8 +36,16 @@ hr {
   margin-left: 282px;
   max-width: 22px;
   border-top: 1px solid #eee;
-
 }
+
+.show_mobile hr{
+margin-top: 23px;
+margin-bottom: 48px;
+margin-left: auto;
+max-width: 22px;
+border-top: 1px solid #eee;
+}
+
 .btn {
     margin-top: 2px;
     padding: 5px 7px;
@@ -61,7 +69,6 @@ p {
 
 section{
     padding: 0px 0px 0px 0px;
-    border-bottom: 1px solid #e5e5e5;
 }
 
 
@@ -133,7 +140,6 @@ footer a:hover, a:active {
        }
 .show_mobile {
 display: block;
-  background-color: #fafafa;
 }
 .show_mobile img{
          max-width: 30%;
