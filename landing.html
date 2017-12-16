@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- my css -->
-  <link rel="stylesheet" href="landing_v1.css" type="text/css">
+  <link rel="stylesheet" href="landing_v2.css" type="text/css">
   <!-- my fonts -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
@@ -141,28 +141,28 @@
           <h4 class="text-justify">Phone: 22123123123</h4>
           <h4 class="text-justify">Email: ewefwefwefwef@efe.uk</h4>
 
-          <form action="/action_page.php">
-            <div class="form-group">
-              <label for="email">Email address:</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-            <div class="form-group">
-              <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="pwd">
-            </div>
-            <div class="checkbox">
-              <label><input type="checkbox"> Remember me</label>
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
+          <div class="form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+
+          <div class="form-group">
+            <button class="btn btn-default btn_contact pull-right" type="submit">Send</button>
+          </div>
+
         </div>
         <div class="col-md-6 col-xs-12">
           <div>
             <div> <video autoplay loop muted>
-                              <source src="films/web_sq_s.mp4" type="video/mp4" >
+                              <source src="films/screen2.mp4" type="video/mp4" >
                   </video> </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
